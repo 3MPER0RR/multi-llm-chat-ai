@@ -235,11 +235,11 @@ choose_groq_model() {
 # ============================================================
 choose_model() {
     echo -e "\n${BOLD}Scegli il modello principale:${RESET}"
-    echo -e "  ${BLUE}1) Claude${RESET}          ${RED}(a pagamento)${RESET}"
-    echo -e "  ${GREEN}2) GPT-4o${RESET}          ${RED}(a pagamento)${RESET}"
-    echo -e "  ${YELLOW}3) Gemini${RESET}          ${RED}(a pagamento)${RESET}"
-    echo -e "  ${MAGENTA}4) OpenRouter${RESET}      ${GREEN}(gratis ✓)${RESET}"
-    echo -e "  ${ORANGE}5) Groq${RESET}            ${GREEN}(gratis ✓)${RESET}"
+    echo -e "  ${BLUE}1) Claude${RESET}          ${RED}(pay)${RESET}"
+    echo -e "  ${GREEN}2) GPT-4o${RESET}          ${RED}(pay)${RESET}"
+    echo -e "  ${YELLOW}3) Gemini${RESET}          ${RED}(pay)${RESET}"
+    echo -e "  ${MAGENTA}4) OpenRouter${RESET}      ${GREEN}(free ✓)${RESET}"
+    echo -e "  ${ORANGE}5) Groq${RESET}            ${GREEN}(free ✓)${RESET}"
     echo -ne "\n${BOLD}Scelta [1-5]: ${RESET}"
     read -r choice
     case "$choice" in

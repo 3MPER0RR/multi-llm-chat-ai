@@ -355,7 +355,7 @@ main() {
     echo "  ╚══════════════════════════════════════════╝"
     echo -e "${RESET}"
     echo -e "  ${GREEN}✓ OpenRouter e Groq sono GRATUITI${RESET} — ottimi per iniziare!"
-    echo -e "  Digita ${YELLOW}/help${RESET} per vedere tutti i comandi.\n"
+    echo -e "  Digita ${YELLOW}il numero${RESET} per iniziare a usare l'ai.\n"
 
     # Selezione iniziale — scrive direttamente in CURRENT_MODEL (no subshell)
     choose_model

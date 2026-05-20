@@ -3,6 +3,8 @@ chmod +x multi_llm_chat.sh
 
 ./multi_llm_chat.sh
 
+write to LLM
+
 ## insert api key
 
 ES 
